@@ -15,6 +15,7 @@ call plug#begin()
   Plug 'godlygeek/tabular'
   Plug 'tpope/vim-fugitive'
   Plug 'jacoborus/tender.vim'
+  Plug 'vim-airline/vim-airline'
 call plug#end()
 
 command! -nargs=1 GC Git commit -m "<args>"
