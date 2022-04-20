@@ -1,6 +1,8 @@
 set ts=2
 set expandtab
 set sw=2
+set splitright
+set splitbelow
 
 " faster tab navigation
 nnoremap <silent> <C-Left> :tabprev<CR>
@@ -24,5 +26,7 @@ if (has("termguicolors"))
  set termguicolors
 endif
 
+set bg=dark
 syntax enable
 colorscheme tender
+
